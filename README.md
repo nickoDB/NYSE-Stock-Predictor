@@ -36,12 +36,16 @@ Investors, traders, and financial analysts need reliable predictions to make inf
 - **Evaluation Metrics:** MSE, RMSE  
 
 ### Experiment & Results
+
 | Batch Size | Train MSE | Train RMSE | Test MSE | Test RMSE |
 |------------|-----------|------------|----------|-----------|
 | 512        | 0.01862   | 0.14       | 0.00409  | 0.06      |
 | 128        | 0.00740   | 0.09       | 0.01965  | 0.14      |
 | 64         | 0.00568   | 0.08       | 0.01349  | 0.12      |
 | 32         | 0.00047   | 0.02       | 0.00110  | 0.03      |
+
+
+<img width="909" height="475" alt="image" src="https://github.com/user-attachments/assets/2ec70634-7c5b-47a4-8628-2cb4d3286535" />
 
 ### Key Findings
 - **Batch Size 32:**  
